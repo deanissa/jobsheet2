@@ -27,12 +27,12 @@ public class buku06 {
     public buku06(){
 
     }
-
-    public buku06 (String jud, String pg, int hal, int stok, int har){
+    
+    public buku06(String jud, String pg, int hal, int stok, int hrg){
         judul = jud;
         pengarang = pg;
         halaman = hal;
         this.stok = stok;
-        harga = har;
+        harga = hrg;
     }
 }
